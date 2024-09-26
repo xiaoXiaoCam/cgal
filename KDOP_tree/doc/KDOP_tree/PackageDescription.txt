@@ -1,0 +1,46 @@
+
+/// \defgroup PkgKDOPTree K Discrete Oriented Polytope Tree (K-DOP Tree) Reference
+/// \defgroup PkgKDOPTreeConcepts Concepts
+/// \ingroup PkgKDOPTree
+
+/// \defgroup PkgKDOPTreeAlgorithmClasses Algorithm Classes
+/// \ingroup PkgKDOPTree
+
+/// \defgroup PkgKDOPTreeTraitsClasses Traits Classes
+/// \ingroup PkgKDOPTree
+
+/*!
+\addtogroup PkgKDOPTree
+
+\cgalPkgDescriptionBegin{K Discrete Oriented Polytope Tree,PkgKDOPTree}
+\cgalPkgPicture{pkg-kdop-small.png}
+
+\cgalPkgSummaryBegin
+\cgalPkgAuthors{Xiao Xiao, Fehmi Cirak, Andreas Fabri}
+\cgalPkgDesc{This package provides a bounding volume hierarchy based on discrete oriented polytopes and efficient algorithms for ray and distance queries using k-DOPs. }
+\cgalPkgManuals{Chapter_KDOPTree, PkgKDOPTreeRef}
+\cgalPkgSummaryEnd
+\cgalPkgShortInfoBegin
+\cgalPkgSince{5.0}
+\cgalPkgDependsOn{\ref PkgAABBTree}
+\cgalPkgBib{cgal:xcf-kdopt}
+\cgalPkgLicense{\ref licensesGPL "GPL"}
+\cgalPkgShortInfoEnd
+
+\cgalPkgDescriptionEnd
+
+\cgalClassifedRefPages
+
+\cgalCRPSection{Concepts}
+- `KDOPTraits`
+- `KDOPKdop`
+- `KDOPTree`
+
+\cgalCRPSection{Algorithms}
+- `CGAL::KDOP_tree::Construct_kdop<GeomTraits, N>`
+
+\cgalCRPSection{Classes}
+- `CGAL::KDOP_tree::KDOP_traits<N, GeomTraits, KDOPPrimitive, BboxMap, KDOPMap>`
+- `CGAL::KDOP_tree::KDOP_tree<KDOPTraits>`
+- `CGAL::KDOP_tree::KDOP_kdop<GeomTraits, N>`
+*/
